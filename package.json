@@ -1,0 +1,19 @@
+{
+  "name": "odin-google",
+  "version": "1.0.0",
+  "description": "An assignment from The Odin Project. This is a front-end copy of the google.com homepage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liquidloose/odin-google.git"
+  },
+  "author": "Ronald Lussier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liquidloose/odin-google/issues"
+  },
+  "homepage": "https://github.com/liquidloose/odin-google#readme"
+}

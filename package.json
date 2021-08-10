@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/liquidloose/odin-google/issues"
   },
-  "homepage": "https://github.com/liquidloose/odin-google#readme"
+  "homepage": "https://github.com/liquidloose/odin-google#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

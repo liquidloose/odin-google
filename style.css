@@ -1,7 +1,48 @@
-body {
-    background-color: yellow;
-    color: blue;
-    font-size: 8vw;
+
+* {
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	color: #222;
+}
+.underline {
+    text-decoration: none;
+}
+
+.topnav-right {
+    float: right;
+  }
+  
+.topnav-left {
+    float: left;
+}
+
+#logo {
     text-align: center;
-    
+    margin-top: 9em;
+}
+  
+.topnav-left > a{
+text-decoration: none;
+} 
+
+.topnav-right > a {
+    text-decoration: none;
+}
+
+
+.left {
+    padding-left: 1em;
+    padding-top: .5em;
+   }
+  
+.right > a {
+    text-decoration: none;
+}
+
+#logo {
+    margin: 15em;
+}
+
+form {
+    border: 4px;
 }

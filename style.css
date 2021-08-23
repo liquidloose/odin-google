@@ -43,6 +43,21 @@ text-decoration: none;
     margin: 15em;
 }
 
-form {
-    border: 4px;
+
+.search-input {
+   height: 3em;
+   border-color: #ddd;
+   border-style: solid;
+   border-left-style: hidden;
+   border-right-style: hidden;   
+   border-width: .5px;
 }
+
+
+
+.search-flex {
+    display: flex;
+   
+    justify-content: center;
+}
+

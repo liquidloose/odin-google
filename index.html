@@ -11,47 +11,55 @@
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
 </head>
 
 <body> 
 
-    <main>
-            <div class="left">
-                <div class="topnav-left">            
-                        <a class="about" href="#home">About</a></th>
-                        <a class="store"  href="#neasdfws">Store</a></th>         
-                </div>      
-            </div>
+    <main>       
 
-            <div class="right">
-                <div class="topnav-right">
-                    <a class="gmail" href="#gmail">Gmail</a>
-                    <a class="images" href="#images">Images</a>
-                    <a class="material-icons-round"href="#contact">apps</a>
-                    <img class="button" src= "/google_icon.jpg" alt="logo"></a>
-                </div> 
-            </div>
+        <nav>  
+            <ul class="container">  
+              <li><a class="about" href="#home">About</a></li>  
+              <li><a class="store"  href="#store">Store</a></li>  
+              <li><a class="placeholder"></li>  
+              <li><a class="gmail" href="#gmail">Gmail</a></li> 
+              <li><a class="images" href="#images">Images</a></li>  
+              <li><a class="material-icons-round squares"href="#contact">apps</a></li>
+              <li><img class="icon" src= "/google_icon.jpg" alt="logo"></a></li>                
+            </ul>          
+        </nav>      
 
-        <br>
-        <br>        
+    <br>
+    <br>        
+
+    <div id="logo">
+        <span><img src="/google_pic.png" alt="google logo"></span>    
+    </div>
+
+    <div class="flex-container">
+        <div class="glass-container">
+            <a class="material-icons glass">search</a>
+        </div>
+        <div class="center-search-bar">
+            <form>
+                <input class="search" type="text">
+            </form>
+        </div>
+    </div> 
+    <div class="button-flex"> 
+        <div>
+            <button>Google Search</button>
+        </div>
     
-        <div id="logo">
-            <span><img src="/google_pic.png" alt="google logo"></span>    
+        <div>
+            <button>I'm Feeling Lucky</button>
         </div>
-
-        <div class="search-flex">  
-                <form>
-                    <a class="material-icons">search</a>      
-                    <input class="search-input" type="text">
-                </form>    
-        </div>
-
-
-    </main>
-
+    </div>      
+           
+   
+   
+</main>
 </body>
-
-</html>
-
 
